@@ -17,5 +17,5 @@ git clone https://github.com/tgrecojs/wallabyjs-hardenedjs && cd wallabyjs-harde
 
 ### Issues with Lockdown
 
-![wallabyjs-lockdown video](wallabyjs-lockdown.mp4)
+![wallabyjs-lockdown video](https://raw.githubusercontent.com/tgrecojs/wallabyjs-hardenedjs/master/wallabyjs-lockdown.mp4)
 
