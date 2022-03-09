@@ -1,14 +1,9 @@
 // @ts-check
 import "ses";
-
+import cuid from "cuid";
 const hardenFactory = (objs) => objs.map(harden);
 
-const makeUid = () =>
-  String.fromCharCode(Math.floor(Math.random() * 26) + 97) +
-  Math.random().toString(16).slice(2) +
-  Date.now().toString(16).slice(4);
-
-const makeNftMint = (initial = makeUid(), startIndex = 0) => ({
+const makeNftMint = (initial = cuid(), startIndex = 0) => ({
   id: initial,
   position: startIndex,
   uidSet: new Map().set("ids", []),
